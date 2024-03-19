@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.notifications.NotificationsFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/textviewplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="94dp" />
+    <TextView
+        android:id="@+id/xksand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paradise"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FF5722"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="94dp" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardzlView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="40dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Add an ImageView for the background image -->
+        <ImageView
+            android:id="@+id/makam"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/res1" />
+
+        <!-- Add other views inside the CardView, such as TextView for quotes -->
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#8BC34A"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Completed" />
+
+    <TextView
+        android:id="@+id/xkskoand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bawarchi"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FF5722"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="94dp" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mlml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="40dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Add an ImageView for the background image -->
+        <ImageView
+            android:id="@+id/koko"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/res2" />
+
+        <!-- Add other views inside the CardView, such as TextView for quotes -->
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/butt4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#8BC34A"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Completed" />
+    <TextView
+        android:id="@+id/xkskqoand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chutneys"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FF5722"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="94dp" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mlqwml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="40dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Add an ImageView for the background image -->
+        <ImageView
+            android:id="@+id/kaaoko"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/res3" />
+
+        <!-- Add other views inside the CardView, such as TextView for quotes -->
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/kldma"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#8BC34A"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Completed" />
+
+    <Button
+        android:id="@+id/voucher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/round_bg1"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:padding="10dp"
+        android:text="Unlock Voucher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.629"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="638dp" />
+
+</LinearLayout>
+</ScrollView>

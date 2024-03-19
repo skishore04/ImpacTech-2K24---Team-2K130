@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="40dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Add an ImageView for the background image -->
+        <ImageView
+            android:id="@+id/backgroundImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img1" />
+
+        <!-- Add other views inside the CardView, such as TextView for quotes -->
+        <TextView
+            android:id="@+id/quoteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:fontFamily="@font/allura"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="The world is a book and those who do not travel read only one page."
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardlView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="40dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Add an ImageView for the background image -->
+        <ImageView
+            android:id="@+id/mkm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img2" />
+
+        <!-- Add other views inside the CardView, such as TextView for quotes -->
+        <TextView
+            android:id="@+id/opk"
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:fontFamily="@font/allura"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Life is short and the world is wide. Better get started."
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardzlView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="40dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp"
+        tools:ignore="MissingConstraints">
+
+        <!-- Add an ImageView for the background image -->
+        <ImageView
+            android:id="@+id/makam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img3" />
+
+        <!-- Add other views inside the CardView, such as TextView for quotes -->
+        <TextView
+            android:id="@+id/oapk"
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:fontFamily="@font/allura"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Take only pictures, leave only footprints."
+            android:textColor="#FFFFFF"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardzlaaView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="40dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp"
+            tools:ignore="MissingConstraints">
+
+            <!-- Add an ImageView for the background image -->
+            <ImageView
+                android:id="@+id/makqam"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img5" />
+
+            <!-- Add other views inside the CardView, such as TextView for quotes -->
+            <TextView
+                android:id="@+id/oaqqpk"
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                android:fontFamily="@font/allura"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Take only pictures, leave only footprints."
+                android:textColor="#3F51B5"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

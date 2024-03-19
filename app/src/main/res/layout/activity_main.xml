@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:layout_gravity=""
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Choose a Category"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#9C27B0"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <Button
+        android:background="@drawable/round_bg1"
+        android:id="@+id/buttonmain"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_family_restroom_24"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Family "
+        />
+    <Button
+        android:id="@+id/b2"
+        android:padding="10dp"
+        android:background="@drawable/round_bg1"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_family_restroom_24"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Couple"
+        />
+    <Button
+        android:id="@+id/b3"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_bg1"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_family_restroom_24"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friends"
+        />
+    <Button
+        android:id="@+id/b4"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_bg1"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/baseline_family_restroom_24"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Solo   "
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

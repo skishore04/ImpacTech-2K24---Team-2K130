@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HackathonAppNew</string>
+    <string name="login"><u>Login</u></string>
+    <string name="already_have_an_account_login">Already have an account? <b><font fgcolor='#0099ff'>Login </font></b></string>
+    <string name="don_t_have_an_account">Don\'t have an account? <b><font fgcolor='#0099ff'>Signup </font></b></string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Profile</string>
+    <string name="title_task">Tasks</string>
+</resources>
